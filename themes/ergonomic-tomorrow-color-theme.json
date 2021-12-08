@@ -5,36 +5,36 @@
   "semanticTokenColors": {
     "class": {
       "fontStyle": "bold",
-      "foreground": "#00FFFF"
+      "foreground": "#FFCC66"
     },
     "type": {
       "fontStyle": "bold",
-      "foreground": "#00FFFF"
+      "foreground": "#FFCC66"
     },
     "interface": {
       "fontStyle": "bold",
-      "foreground": "#00FFFF"
+      "foreground": "#FFCC66"
     },
     "enum": {
       "fontStyle": "bold",
-      "foreground": "#00FFFF"
+      "foreground": "#FFCC66"
     },
-    "enumMember": "#ffd6a7",
+    "enumMember": "#dddddd",
     "typeParameter": {
       "fontStyle": "bold",
-      "foreground": "#00FFFF"
+      "foreground": "#FFCC66"
     },
     "function": {
       "fontStyle": "bold",
-      "foreground": "#00ff00"
+      "foreground": "#6699CC"
     },
     "method": {
       "fontStyle": "bold",
-      "foreground": "#00ff00"
+      "foreground": "#6699CC"
     },
-    "variable": "#ffd6a7",
-    "property": "#ffff00",
-    "parameter": "#ffaa00",
+    "variable": "#dddddd",
+    "property": "#F2777A",
+    "parameter": "#F99157",
     "comment": "#ff0000",
     "string": "#ff0000",
     "operator": "#ff0000",
@@ -84,7 +84,7 @@
         "string.template"
       ],
       "settings": {
-        "foreground": "#89CA78"
+        "foreground": "#99CC99"
       }
     },
     {
@@ -110,7 +110,7 @@
       ],
       "settings": {
         "fontStyle": "bold italic",
-        "foreground": "#ffff00"
+        "foreground": "#F2777A"
       }
     },
     {
@@ -176,7 +176,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#77bdff"
+        "foreground": "#FFCC66"
       }
     },
     {
@@ -186,7 +186,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#77bdff"
+        "foreground": "#FFCC66"
       }
     },
     {
@@ -204,7 +204,7 @@
         "punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#89CA78"
+        "foreground": "#99CC99"
       }
     },
     {
@@ -224,7 +224,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#00ff00"
+        "foreground": "#6699CC"
       }
     }
   ]

@@ -23,6 +23,11 @@
         "label": "ergonomic-one-dark",
         "uiTheme": "vs-dark",
         "path": "./themes/ergonomic-one-dark-color-theme.json"
+      },
+      {
+        "label": "ergonomic-tomorrow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ergonomic-tomorrow-color-theme.json"
       }
     ]
   },
