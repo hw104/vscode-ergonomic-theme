@@ -61,8 +61,11 @@ export function generateTheme(config: Config, name: string): Theme {
       },
       // variables
       variable: config.variables,
-      property: config.property,
       parameter: config.parameter,
+      property: {
+        fontStyle: "bold",
+        foreground: config.property,
+      },
       // NO WORKING
       comment: "#ff0000",
       string: "#ff0000",
@@ -93,6 +96,11 @@ export function generateTheme(config: Config, name: string): Theme {
       "*.defaultLibrary": {
         // fontStyle: "italic bold underline",
         fontStyle: "italic bold",
+      },
+      "variable.defaultLibrary": {
+        // fontStyle: "italic bold underline",
+        fontStyle: "italic bold",
+        foreground: config.primitiveType,
       },
       "*.global": {
         // fontStyle: "italic bold underline",

@@ -33,8 +33,11 @@
       "foreground": "#6699CC"
     },
     "variable": "#dddddd",
-    "property": "#F2777A",
     "parameter": "#F99157",
+    "property": {
+      "fontStyle": "bold",
+      "foreground": "#F2777A"
+    },
     "comment": "#ff0000",
     "string": "#ff0000",
     "operator": "#ff0000",
@@ -61,6 +64,10 @@
     "cliProperty": "#ff0000",
     "*.defaultLibrary": {
       "fontStyle": "italic bold"
+    },
+    "variable.defaultLibrary": {
+      "fontStyle": "italic bold",
+      "foreground": "#FFCC66"
     },
     "*.global": {
       "fontStyle": "italic bold"

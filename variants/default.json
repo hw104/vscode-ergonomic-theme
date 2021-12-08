@@ -2,7 +2,7 @@
   "comment": "#AAFFAA",
   "class": "#00FFFF",
   "function": "#00ff00",
-  "variables": "#ffd6a7",
+  "variables": "#ffffaa",
   "parameter": "#ffaa00",
   "property": "#ffff00",
   "string": "#89CA78",
@@ -10,6 +10,6 @@
   "boolean": "#aaaaff",
   "nulliysh": "#ddaaff",
   "operators": "#FFFFFF",
-  "keywords": "#CC99CC",
+  "keywords": "#ff77ff",
   "primitiveType": "#77bdff"
 }

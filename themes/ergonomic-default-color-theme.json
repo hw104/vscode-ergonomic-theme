@@ -19,7 +19,7 @@
       "fontStyle": "bold",
       "foreground": "#00FFFF"
     },
-    "enumMember": "#ffd6a7",
+    "enumMember": "#ffffaa",
     "typeParameter": {
       "fontStyle": "bold",
       "foreground": "#00FFFF"
@@ -32,9 +32,12 @@
       "fontStyle": "bold",
       "foreground": "#00ff00"
     },
-    "variable": "#ffd6a7",
-    "property": "#ffff00",
+    "variable": "#ffffaa",
     "parameter": "#ffaa00",
+    "property": {
+      "fontStyle": "bold",
+      "foreground": "#ffff00"
+    },
     "comment": "#ff0000",
     "string": "#ff0000",
     "operator": "#ff0000",
@@ -61,6 +64,10 @@
     "cliProperty": "#ff0000",
     "*.defaultLibrary": {
       "fontStyle": "italic bold"
+    },
+    "variable.defaultLibrary": {
+      "fontStyle": "italic bold",
+      "foreground": "#77bdff"
     },
     "*.global": {
       "fontStyle": "italic bold"
@@ -130,7 +137,7 @@
         "storage.type"
       ],
       "settings": {
-        "foreground": "#CC99CC"
+        "foreground": "#ff77ff"
       }
     },
     {
@@ -139,7 +146,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#CC99CC"
+        "foreground": "#ff77ff"
       }
     },
     {
@@ -148,7 +155,7 @@
         "keyword"
       ],
       "settings": {
-        "foreground": "#CC99CC"
+        "foreground": "#ff77ff"
       }
     },
     {
@@ -166,7 +173,7 @@
         "keyword.operator.new"
       ],
       "settings": {
-        "foreground": "#CC99CC"
+        "foreground": "#ff77ff"
       }
     },
     {
