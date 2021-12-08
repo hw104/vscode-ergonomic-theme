@@ -22,7 +22,7 @@ interface Theme {
   semanticTokenColors: any;
 }
 
-export function generate(config: Config, name: string): Theme {
+export function generateTheme(config: Config, name: string): Theme {
   return {
     name: "ergonomic-theme",
     type: "dark",
