@@ -91,10 +91,12 @@ export function generateTheme(config: Config, name: string): Theme {
       // =============================================
       // =============================================
       "*.defaultLibrary": {
-        fontStyle: "italic bold underline",
+        // fontStyle: "italic bold underline",
+        fontStyle: "italic bold",
       },
       "*.global": {
-        fontStyle: "italic bold underline",
+        // fontStyle: "italic bold underline",
+        fontStyle: "italic bold",
       },
       "*.static": {
         fontStyle: "italic bold",

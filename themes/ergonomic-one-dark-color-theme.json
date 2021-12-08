@@ -5,36 +5,36 @@
   "semanticTokenColors": {
     "class": {
       "fontStyle": "bold",
-      "foreground": "#00FFFF"
+      "foreground": "#E5C07B"
     },
     "type": {
       "fontStyle": "bold",
-      "foreground": "#00FFFF"
+      "foreground": "#E5C07B"
     },
     "interface": {
       "fontStyle": "bold",
-      "foreground": "#00FFFF"
+      "foreground": "#E5C07B"
     },
     "enum": {
       "fontStyle": "bold",
-      "foreground": "#00FFFF"
+      "foreground": "#E5C07B"
     },
-    "enumMember": "#ffd6a7",
+    "enumMember": "#dddddd",
     "typeParameter": {
       "fontStyle": "bold",
-      "foreground": "#00FFFF"
+      "foreground": "#E5C07B"
     },
     "function": {
       "fontStyle": "bold",
-      "foreground": "#00ff00"
+      "foreground": "#61AFEF"
     },
     "method": {
       "fontStyle": "bold",
-      "foreground": "#00ff00"
+      "foreground": "#61AFEF"
     },
-    "variable": "#ffd6a7",
-    "property": "#ffff00",
-    "parameter": "#ffaa00",
+    "variable": "#dddddd",
+    "property": "#EF596F",
+    "parameter": "#ff8800",
     "comment": "#ff0000",
     "string": "#ff0000",
     "operator": "#ff0000",
@@ -60,10 +60,10 @@
     "valueType": "#ff0000",
     "cliProperty": "#ff0000",
     "*.defaultLibrary": {
-      "fontStyle": "italic bold underline"
+      "fontStyle": "italic bold"
     },
     "*.global": {
-      "fontStyle": "italic bold underline"
+      "fontStyle": "italic bold"
     },
     "*.static": {
       "fontStyle": "italic bold"
@@ -110,7 +110,7 @@
       ],
       "settings": {
         "fontStyle": "bold italic",
-        "foreground": "#ffff00"
+        "foreground": "#EF596F"
       }
     },
     {
@@ -130,7 +130,7 @@
         "storage.type"
       ],
       "settings": {
-        "foreground": "#ff56e8"
+        "foreground": "#D55FDE"
       }
     },
     {
@@ -139,7 +139,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#ff56e8"
+        "foreground": "#D55FDE"
       }
     },
     {
@@ -148,7 +148,7 @@
         "keyword"
       ],
       "settings": {
-        "foreground": "#ff56e8"
+        "foreground": "#D55FDE"
       }
     },
     {
@@ -166,7 +166,7 @@
         "keyword.operator.new"
       ],
       "settings": {
-        "foreground": "#ff56e8"
+        "foreground": "#D55FDE"
       }
     },
     {
@@ -176,7 +176,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#77bdff"
+        "foreground": "#E5C07B"
       }
     },
     {
@@ -186,7 +186,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#77bdff"
+        "foreground": "#E5C07B"
       }
     },
     {
@@ -215,7 +215,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#AAFFAA"
+        "foreground": "#00FF00"
       }
     },
     {
@@ -224,7 +224,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#00ff00"
+        "foreground": "#61AFEF"
       }
     }
   ]

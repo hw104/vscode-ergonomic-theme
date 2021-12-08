@@ -60,10 +60,10 @@
     "valueType": "#ff0000",
     "cliProperty": "#ff0000",
     "*.defaultLibrary": {
-      "fontStyle": "italic bold underline"
+      "fontStyle": "italic bold"
     },
     "*.global": {
-      "fontStyle": "italic bold underline"
+      "fontStyle": "italic bold"
     },
     "*.static": {
       "fontStyle": "italic bold"
