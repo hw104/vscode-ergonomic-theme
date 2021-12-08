@@ -50,6 +50,10 @@ export function generateTheme(config: Config, name: string): Theme {
         fontStyle: "bold",
         foreground: config.class,
       },
+      namespace: {
+        fontStyle: "bold",
+        foreground: config.class,
+      },
       // functions
       function: {
         fontStyle: "bold",
@@ -63,7 +67,7 @@ export function generateTheme(config: Config, name: string): Theme {
       variable: config.variables,
       parameter: config.parameter,
       property: {
-        fontStyle: "bold",
+        // fontStyle: "bold",
         foreground: config.property,
       },
       // NO WORKING
@@ -80,7 +84,6 @@ export function generateTheme(config: Config, name: string): Theme {
       label: "#ff0000",
       macro: "#ff0000",
       memberOperatorOverload: "#ff0000",
-      namespace: "#ff0000",
       newOperator: "#ff0000",
       operatorOverload: "#ff0000",
       referenceType: "#ff0000",
@@ -185,7 +188,7 @@ export function generateTheme(config: Config, name: string): Theme {
       },
       {
         name: "new, :, =, +, |, <,, ++,",
-        scope: ["keyword.operator.new"],
+        scope: ["keyword.operator.new", "keyword.operator.expression"],
         settings: {
           foreground: config.keywords,
         },
@@ -210,7 +213,7 @@ export function generateTheme(config: Config, name: string): Theme {
       // Symbol =================================================
       {
         name: "{, }, ;, ${}, `, \", ', :, .",
-        scope: ["punctuation.definition"],
+        scope: ["punctuation.definition", "punctuation.section", "meta.brace"],
         settings: {
           // "fontStyle": "italic underline",
           foreground: "#FFFFFF",
@@ -249,6 +252,48 @@ export function generateTheme(config: Config, name: string): Theme {
         settings: {
           fontStyle: "bold",
           foreground: config.function,
+        },
+      },
+      // JSX ===================================================
+      {
+        name: "jsx string",
+        scope: ["meta.jsx.children"],
+        settings: {
+          foreground: config.string,
+        },
+      },
+      {
+        name: "jsx tag",
+        scope: ["entity.name.tag"],
+        settings: {
+          foreground: config.primitiveType,
+        },
+      },
+      {
+        name: "jsx class tag",
+        scope: ["support.class.component"],
+        settings: {
+          foreground: config.class,
+        },
+      },
+      {
+        name: "jsx class tag",
+        scope: ["entity.other.attribute-name"],
+        settings: {
+          foreground: config.property,
+        },
+      },
+      // MARKDOWN ====================================
+      {
+        scope: ["entity.name.section.markdown"],
+        settings: {
+          foreground: config.class,
+        },
+      },
+      {
+        scope: ["markup.inline.raw.string"],
+        settings: {
+          foreground: config.string,
         },
       },
     ],

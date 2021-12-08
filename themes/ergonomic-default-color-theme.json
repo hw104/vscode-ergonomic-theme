@@ -5,38 +5,41 @@
   "semanticTokenColors": {
     "class": {
       "fontStyle": "bold",
-      "foreground": "#00FFFF"
+      "foreground": "#81A2BE"
     },
     "type": {
       "fontStyle": "bold",
-      "foreground": "#00FFFF"
+      "foreground": "#81A2BE"
     },
     "interface": {
       "fontStyle": "bold",
-      "foreground": "#00FFFF"
+      "foreground": "#81A2BE"
     },
     "enum": {
       "fontStyle": "bold",
-      "foreground": "#00FFFF"
+      "foreground": "#81A2BE"
     },
-    "enumMember": "#ffffaa",
+    "enumMember": "#F0C674",
     "typeParameter": {
       "fontStyle": "bold",
-      "foreground": "#00FFFF"
+      "foreground": "#81A2BE"
+    },
+    "namespace": {
+      "fontStyle": "bold",
+      "foreground": "#81A2BE"
     },
     "function": {
       "fontStyle": "bold",
-      "foreground": "#00ff00"
+      "foreground": "#B5BD68"
     },
     "method": {
       "fontStyle": "bold",
-      "foreground": "#00ff00"
+      "foreground": "#B5BD68"
     },
-    "variable": "#ffffaa",
-    "parameter": "#ffaa00",
+    "variable": "#F0C674",
+    "parameter": "#DE935F",
     "property": {
-      "fontStyle": "bold",
-      "foreground": "#ffff00"
+      "foreground": "#CC6666"
     },
     "comment": "#ff0000",
     "string": "#ff0000",
@@ -51,7 +54,6 @@
     "label": "#ff0000",
     "macro": "#ff0000",
     "memberOperatorOverload": "#ff0000",
-    "namespace": "#ff0000",
     "newOperator": "#ff0000",
     "operatorOverload": "#ff0000",
     "referenceType": "#ff0000",
@@ -67,7 +69,7 @@
     },
     "variable.defaultLibrary": {
       "fontStyle": "italic bold",
-      "foreground": "#77bdff"
+      "foreground": "#8ABEB7"
     },
     "*.global": {
       "fontStyle": "italic bold"
@@ -117,7 +119,7 @@
       ],
       "settings": {
         "fontStyle": "bold italic",
-        "foreground": "#ffff00"
+        "foreground": "#CC6666"
       }
     },
     {
@@ -137,7 +139,7 @@
         "storage.type"
       ],
       "settings": {
-        "foreground": "#ff77ff"
+        "foreground": "#B294BB"
       }
     },
     {
@@ -146,7 +148,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#ff77ff"
+        "foreground": "#B294BB"
       }
     },
     {
@@ -155,7 +157,7 @@
         "keyword"
       ],
       "settings": {
-        "foreground": "#ff77ff"
+        "foreground": "#B294BB"
       }
     },
     {
@@ -170,10 +172,11 @@
     {
       "name": "new, :, =, +, |, <,, ++,",
       "scope": [
-        "keyword.operator.new"
+        "keyword.operator.new",
+        "keyword.operator.expression"
       ],
       "settings": {
-        "foreground": "#ff77ff"
+        "foreground": "#B294BB"
       }
     },
     {
@@ -183,7 +186,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#77bdff"
+        "foreground": "#8ABEB7"
       }
     },
     {
@@ -193,13 +196,15 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#77bdff"
+        "foreground": "#8ABEB7"
       }
     },
     {
       "name": "{, }, ;, ${}, `, \", ', :, .",
       "scope": [
-        "punctuation.definition"
+        "punctuation.definition",
+        "punctuation.section",
+        "meta.brace"
       ],
       "settings": {
         "foreground": "#FFFFFF"
@@ -231,7 +236,59 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#00ff00"
+        "foreground": "#B5BD68"
+      }
+    },
+    {
+      "name": "jsx string",
+      "scope": [
+        "meta.jsx.children"
+      ],
+      "settings": {
+        "foreground": "#89CA78"
+      }
+    },
+    {
+      "name": "jsx tag",
+      "scope": [
+        "entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#8ABEB7"
+      }
+    },
+    {
+      "name": "jsx class tag",
+      "scope": [
+        "support.class.component"
+      ],
+      "settings": {
+        "foreground": "#81A2BE"
+      }
+    },
+    {
+      "name": "jsx class tag",
+      "scope": [
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#CC6666"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.section.markdown"
+      ],
+      "settings": {
+        "foreground": "#81A2BE"
+      }
+    },
+    {
+      "scope": [
+        "markup.inline.raw.string"
+      ],
+      "settings": {
+        "foreground": "#89CA78"
       }
     }
   ]

@@ -24,6 +24,10 @@
       "fontStyle": "bold",
       "foreground": "#E5C07B"
     },
+    "namespace": {
+      "fontStyle": "bold",
+      "foreground": "#E5C07B"
+    },
     "function": {
       "fontStyle": "bold",
       "foreground": "#61AFEF"
@@ -35,7 +39,6 @@
     "variable": "#dddddd",
     "parameter": "#ff8800",
     "property": {
-      "fontStyle": "bold",
       "foreground": "#EF596F"
     },
     "comment": "#ff0000",
@@ -51,7 +54,6 @@
     "label": "#ff0000",
     "macro": "#ff0000",
     "memberOperatorOverload": "#ff0000",
-    "namespace": "#ff0000",
     "newOperator": "#ff0000",
     "operatorOverload": "#ff0000",
     "referenceType": "#ff0000",
@@ -170,7 +172,8 @@
     {
       "name": "new, :, =, +, |, <,, ++,",
       "scope": [
-        "keyword.operator.new"
+        "keyword.operator.new",
+        "keyword.operator.expression"
       ],
       "settings": {
         "foreground": "#D55FDE"
@@ -199,7 +202,9 @@
     {
       "name": "{, }, ;, ${}, `, \", ', :, .",
       "scope": [
-        "punctuation.definition"
+        "punctuation.definition",
+        "punctuation.section",
+        "meta.brace"
       ],
       "settings": {
         "foreground": "#FFFFFF"
@@ -232,6 +237,58 @@
       "settings": {
         "fontStyle": "bold",
         "foreground": "#61AFEF"
+      }
+    },
+    {
+      "name": "jsx string",
+      "scope": [
+        "meta.jsx.children"
+      ],
+      "settings": {
+        "foreground": "#89CA78"
+      }
+    },
+    {
+      "name": "jsx tag",
+      "scope": [
+        "entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "name": "jsx class tag",
+      "scope": [
+        "support.class.component"
+      ],
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "name": "jsx class tag",
+      "scope": [
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#EF596F"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.section.markdown"
+      ],
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "scope": [
+        "markup.inline.raw.string"
+      ],
+      "settings": {
+        "foreground": "#89CA78"
       }
     }
   ]

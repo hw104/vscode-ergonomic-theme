@@ -1,15 +1,15 @@
 {
   "comment": "#AAFFAA",
-  "class": "#00FFFF",
-  "function": "#00ff00",
-  "variables": "#ffffaa",
-  "parameter": "#ffaa00",
-  "property": "#ffff00",
+  "class": "#81A2BE",
+  "function": "#B5BD68",
+  "variables": "#F0C674",
+  "parameter": "#DE935F",
+  "property": "#CC6666",
   "string": "#89CA78",
   "number": "#aaffff",
   "boolean": "#aaaaff",
   "nulliysh": "#ddaaff",
   "operators": "#FFFFFF",
-  "keywords": "#ff77ff",
-  "primitiveType": "#77bdff"
+  "keywords": "#B294BB",
+  "primitiveType": "#8ABEB7"
 }
