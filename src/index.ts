@@ -14,12 +14,12 @@ async function main() {
     // console.log(theme);
     const toPath = path.resolve(
       __dirname,
-      `../themes/ergonomic-theme-${name}-color-theme.json`
+      `../themes/ergonomic-${name}-color-theme.json`
     );
     await writeFile(
       toPath,
       JSON.stringify(
-        generateTheme(theme, `ergonomic-theme-${name}`),
+        generateTheme(theme, `ergonomic-${name}`),
         undefined,
         2
       )

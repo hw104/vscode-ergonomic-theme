@@ -15,9 +15,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "ergonomic-theme",
+        "label": "ergonomic-default",
         "uiTheme": "vs-dark",
-        "path": "./themes/ergonomic-theme-default-color-theme.json"
+        "path": "./themes/ergonomic-default-color-theme.json"
+      },
+      {
+        "label": "ergonomic-one-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ergonomic-one-dark-color-theme.json"
       }
     ]
   },
