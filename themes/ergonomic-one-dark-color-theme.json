@@ -143,6 +143,15 @@
       }
     },
     {
+      "name": "json key",
+      "scope": [
+        "support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#EF596F"
+      }
+    },
+    {
       "name": "interface, type, const, class, constructor, let",
       "scope": [
         "storage.type"

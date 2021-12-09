@@ -157,10 +157,16 @@ export function generateTheme(config: Config, name: string): Theme {
           foreground: config.nulliysh,
         },
       },
-      // 	variable.other.property
       {
         name: "xxx.xxxx.XXXX",
         scope: ["variable.other.property"],
+        settings: {
+          foreground: config.property,
+        },
+      },
+      {
+        name: "json key",
+        scope: ["support.type.property-name"],
         settings: {
           foreground: config.property,
         },

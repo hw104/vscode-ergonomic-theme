@@ -26,9 +26,9 @@
         "path": "./themes/ergonomic-one-dark-color-theme.json"
       },
       {
-        "label": "ergonomic-ansi-16",
+        "label": "ergonomic-pastel",
         "uiTheme": "vs-dark",
-        "path": "./themes/ergonomic-ansi-16-color-theme.json"
+        "path": "./themes/ergonomic-pastel-color-theme.json"
       },
       {
         "label": "ergonomic-soft",
