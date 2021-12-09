@@ -31,9 +31,9 @@
         "path": "./themes/ergonomic-pastel-color-theme.json"
       },
       {
-        "label": "ergonomic-soft",
+        "label": "ergonomic-dimmed",
         "uiTheme": "vs-dark",
-        "path": "./themes/ergonomic-soft-color-theme.json"
+        "path": "./themes/ergonomic-dimmed-color-theme.json"
       }
     ]
   },
