@@ -1,14 +1,17 @@
 {
   "name": "ergonomic-theme",
   "displayName": "ergonomic-theme",
-  "description": "",
-  "version": "0.0.1",
+  "description": "Ergonomic theme for typescript.",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.62.0"
   },
+  "publisher": "hw104",
+  "license": "MIT",
   "scripts": {
     "build": "ts-node src/index.ts",
-    "package": "vsce package --yarn"
+    "package": "vsce package --yarn",
+    "publish": "vsce publish --yarn"
   },
   "categories": [
     "Themes"
