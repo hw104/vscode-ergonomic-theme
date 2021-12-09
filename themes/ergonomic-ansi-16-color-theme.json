@@ -5,41 +5,41 @@
   "semanticTokenColors": {
     "class": {
       "fontStyle": "bold",
-      "foreground": "#0000FF"
+      "foreground": "#81A2BE"
     },
     "type": {
       "fontStyle": "bold",
-      "foreground": "#0000FF"
+      "foreground": "#81A2BE"
     },
     "interface": {
       "fontStyle": "bold",
-      "foreground": "#0000FF"
+      "foreground": "#81A2BE"
     },
     "enum": {
       "fontStyle": "bold",
-      "foreground": "#0000FF"
+      "foreground": "#81A2BE"
     },
-    "enumMember": "#FFFFFF",
+    "enumMember": "#F0C674",
     "typeParameter": {
       "fontStyle": "bold",
-      "foreground": "#0000FF"
+      "foreground": "#81A2BE"
     },
     "namespace": {
       "fontStyle": "bold",
-      "foreground": "#0000FF"
+      "foreground": "#81A2BE"
     },
     "function": {
       "fontStyle": "bold",
-      "foreground": "#00FF00"
+      "foreground": "#B5BD68"
     },
     "method": {
       "fontStyle": "bold",
-      "foreground": "#00FF00"
+      "foreground": "#B5BD68"
     },
-    "variable": "#FFFFFF",
-    "parameter": "#FF0000",
+    "variable": "#F0C674",
+    "parameter": "#CC6666",
     "property": {
-      "foreground": "#FFFF00"
+      "foreground": "#DE935F"
     },
     "comment": "#ff0000",
     "string": "#ff0000",
@@ -69,7 +69,7 @@
     },
     "variable.defaultLibrary": {
       "fontStyle": "italic bold",
-      "foreground": "#00FFFF"
+      "foreground": "#8ABEB7"
     },
     "*.global": {
       "fontStyle": "italic bold"
@@ -93,7 +93,7 @@
         "string.template"
       ],
       "settings": {
-        "foreground": "#B5BD68"
+        "foreground": "#89CA78"
       }
     },
     {
@@ -119,7 +119,7 @@
       ],
       "settings": {
         "fontStyle": "bold italic",
-        "foreground": "#FFFF00"
+        "foreground": "#DE935F"
       }
     },
     {
@@ -139,7 +139,7 @@
         "storage.type"
       ],
       "settings": {
-        "foreground": "#FF00FF"
+        "foreground": "#B294BB"
       }
     },
     {
@@ -148,7 +148,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#FF00FF"
+        "foreground": "#B294BB"
       }
     },
     {
@@ -157,7 +157,7 @@
         "keyword"
       ],
       "settings": {
-        "foreground": "#FF00FF"
+        "foreground": "#B294BB"
       }
     },
     {
@@ -176,7 +176,7 @@
         "keyword.operator.expression"
       ],
       "settings": {
-        "foreground": "#FF00FF"
+        "foreground": "#B294BB"
       }
     },
     {
@@ -186,7 +186,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#00FFFF"
+        "foreground": "#8ABEB7"
       }
     },
     {
@@ -196,7 +196,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#00FFFF"
+        "foreground": "#8ABEB7"
       }
     },
     {
@@ -216,7 +216,7 @@
         "punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#B5BD68"
+        "foreground": "#89CA78"
       }
     },
     {
@@ -236,7 +236,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#00FF00"
+        "foreground": "#B5BD68"
       }
     },
     {
@@ -245,7 +245,7 @@
         "meta.jsx.children"
       ],
       "settings": {
-        "foreground": "#B5BD68"
+        "foreground": "#89CA78"
       }
     },
     {
@@ -254,7 +254,7 @@
         "entity.name.tag"
       ],
       "settings": {
-        "foreground": "#00FFFF"
+        "foreground": "#8ABEB7"
       }
     },
     {
@@ -263,7 +263,7 @@
         "support.class.component"
       ],
       "settings": {
-        "foreground": "#0000FF"
+        "foreground": "#81A2BE"
       }
     },
     {
@@ -272,7 +272,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#FFFF00"
+        "foreground": "#DE935F"
       }
     },
     {
@@ -280,7 +280,7 @@
         "entity.name.section.markdown"
       ],
       "settings": {
-        "foreground": "#0000FF"
+        "foreground": "#81A2BE"
       }
     },
     {
@@ -288,7 +288,7 @@
         "markup.inline.raw.string"
       ],
       "settings": {
-        "foreground": "#B5BD68"
+        "foreground": "#89CA78"
       }
     }
   ]

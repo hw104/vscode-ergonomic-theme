@@ -1,0 +1,15 @@
+{
+  "comment": "#AAFFAA",
+  "class": "#81A2BE",
+  "function": "#B5BD68",
+  "variables": "#F0C674",
+  "property": "#DE935F",
+  "parameter": "#CC6666",
+  "string": "#89CA78",
+  "number": "#aaffff",
+  "boolean": "#aaaaff",
+  "nulliysh": "#ddaaff",
+  "operators": "#FFFFFF",
+  "keywords": "#B294BB",
+  "primitiveType": "#8ABEB7"
+}

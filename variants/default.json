@@ -1,15 +1,15 @@
 {
+  "keywords": "#FF00FF",
+  "class": "#0000FF",
+  "primitiveType": "#00FFFF",
+  "function": "#00FF00",
+  "variables": "#FFFFFF",
+  "property": "#FFFF00",
+  "parameter": "#FF0000",
   "comment": "#AAFFAA",
-  "class": "#81A2BE",
-  "function": "#B5BD68",
-  "variables": "#F0C674",
-  "parameter": "#DE935F",
-  "property": "#CC6666",
-  "string": "#89CA78",
+  "string": "#B5BD68",
   "number": "#aaffff",
   "boolean": "#aaaaff",
   "nulliysh": "#ddaaff",
-  "operators": "#FFFFFF",
-  "keywords": "#B294BB",
-  "primitiveType": "#8ABEB7"
+  "operators": "#FFFFFF"
 }
