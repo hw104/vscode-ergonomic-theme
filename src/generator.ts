@@ -287,11 +287,12 @@ export function generateTheme(config: Config, name: string): Theme {
         name: "jsx class tag",
         scope: ["support.class.component"],
         settings: {
+          fontStyle: "bold",
           foreground: config.class,
         },
       },
       {
-        name: "jsx class tag",
+        name: "jsx class tag param",
         scope: ["entity.other.attribute-name"],
         settings: {
           foreground: config.property,

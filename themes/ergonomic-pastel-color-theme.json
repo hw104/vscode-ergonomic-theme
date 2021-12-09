@@ -281,11 +281,12 @@
         "support.class.component"
       ],
       "settings": {
+        "fontStyle": "bold",
         "foreground": "#0088FF"
       }
     },
     {
-      "name": "jsx class tag",
+      "name": "jsx class tag param",
       "scope": [
         "entity.other.attribute-name"
       ],
