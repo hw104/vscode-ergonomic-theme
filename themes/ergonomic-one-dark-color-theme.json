@@ -134,6 +134,15 @@
       }
     },
     {
+      "name": "xxx.xxxx.XXXX",
+      "scope": [
+        "variable.other.property"
+      ],
+      "settings": {
+        "foreground": "#EF596F"
+      }
+    },
+    {
       "name": "interface, type, const, class, constructor, let",
       "scope": [
         "storage.type"

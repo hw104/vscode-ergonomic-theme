@@ -37,9 +37,9 @@
       "foreground": "#88FF88"
     },
     "variable": "#ffff88",
-    "parameter": "#FF8888",
+    "parameter": "#FF8800",
     "property": {
-      "foreground": "#FF8800"
+      "foreground": "#FF8888"
     },
     "comment": "#ff0000",
     "string": "#ff0000",
@@ -119,7 +119,7 @@
       ],
       "settings": {
         "fontStyle": "bold italic",
-        "foreground": "#FF8800"
+        "foreground": "#FF8888"
       }
     },
     {
@@ -131,6 +131,15 @@
       "settings": {
         "fontStyle": "bold italic",
         "foreground": "#ffaaff"
+      }
+    },
+    {
+      "name": "xxx.xxxx.XXXX",
+      "scope": [
+        "variable.other.property"
+      ],
+      "settings": {
+        "foreground": "#FF8888"
       }
     },
     {
@@ -272,7 +281,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#FF8800"
+        "foreground": "#FF8888"
       }
     },
     {

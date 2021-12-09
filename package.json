@@ -26,11 +26,6 @@
         "path": "./themes/ergonomic-one-dark-color-theme.json"
       },
       {
-        "label": "ergonomic-tomorrow",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ergonomic-tomorrow-color-theme.json"
-      },
-      {
         "label": "ergonomic-ansi-16",
         "uiTheme": "vs-dark",
         "path": "./themes/ergonomic-ansi-16-color-theme.json"

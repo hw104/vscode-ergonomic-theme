@@ -4,12 +4,12 @@
   "primitiveType": "#00FFFF",
   "function": "#00FF00",
   "variables": "#FFFFFF",
-  "property": "#FFFF00",
-  "parameter": "#FF0000",
-  "comment": "#AAFFAA",
+  "parameter": "#FFFF00",
+  "property": "#FF0000",
   "string": "#B5BD68",
   "number": "#aaffff",
   "boolean": "#aaaaff",
   "nulliysh": "#ddaaff",
-  "operators": "#FFFFFF"
+  "operators": "#FFFFFF",
+  "comment": "#AAFFAA"
 }
