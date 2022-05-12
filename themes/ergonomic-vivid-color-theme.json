@@ -5,56 +5,56 @@
   "semanticTokenColors": {
     "class": {
       "fontStyle": "bold",
-      "foreground": "#4488dd"
+      "foreground": "#4488FF"
     },
     "type": {
       "fontStyle": "bold",
-      "foreground": "#4488dd"
+      "foreground": "#4488FF"
     },
     "interface": {
       "fontStyle": "bold",
-      "foreground": "#4488dd"
+      "foreground": "#4488FF"
     },
     "enum": {
       "fontStyle": "bold",
-      "foreground": "#4488dd"
+      "foreground": "#4488FF"
     },
-    "enumMember": "#dddd00",
+    "enumMember": "#ffff44",
     "typeParameter": {
       "fontStyle": "bold",
-      "foreground": "#4488dd"
+      "foreground": "#4488FF"
     },
     "namespace": {
       "fontStyle": "bold",
-      "foreground": "#4488dd"
+      "foreground": "#4488FF"
     },
     "function": {
       "fontStyle": "bold",
-      "foreground": "#88dd44"
+      "foreground": "#44ff44"
     },
     "method": {
       "fontStyle": "bold",
-      "foreground": "#88dd44"
+      "foreground": "#44ff44"
     },
-    "variable": "#dddd00",
-    "parameter": "#dd8800",
+    "variable": "#ffff44",
+    "parameter": "#ff8844",
     "property": {
-      "foreground": "#dd4488"
+      "foreground": "#ff4488"
     },
     "comment": "#008800",
     "string": "#aaffaa",
     "operator": "#FFFFFF",
-    "keyword": "#dd44dd",
+    "keyword": "#FF44FF",
     "stringLiteral": "#aaffaa",
     "struct": {
       "fontStyle": "bold",
-      "foreground": "#4488dd"
+      "foreground": "#4488FF"
     },
     "macro": {
       "fontStyle": "italic bold",
-      "foreground": "#88dd44"
+      "foreground": "#44ff44"
     },
-    "newOperator": "#dd44dd",
+    "newOperator": "#FF44FF",
     "numberLiteral": "#aaffff",
     "number": "#aaffff",
     "customLiteral": "#ff0000",
@@ -75,7 +75,7 @@
     },
     "variable.defaultLibrary": {
       "fontStyle": "italic bold",
-      "foreground": "#44dddd"
+      "foreground": "#44ffff"
     },
     "*.global": {
       "fontStyle": "italic bold"
@@ -125,7 +125,7 @@
       ],
       "settings": {
         "fontStyle": "bold italic",
-        "foreground": "#dd4488"
+        "foreground": "#ff4488"
       }
     },
     {
@@ -145,7 +145,7 @@
         "variable.other.property"
       ],
       "settings": {
-        "foreground": "#dd4488"
+        "foreground": "#ff4488"
       }
     },
     {
@@ -154,7 +154,7 @@
         "support.type.property-name"
       ],
       "settings": {
-        "foreground": "#dd4488"
+        "foreground": "#ff4488"
       }
     },
     {
@@ -163,7 +163,7 @@
         "storage.type"
       ],
       "settings": {
-        "foreground": "#dd44dd"
+        "foreground": "#FF44FF"
       }
     },
     {
@@ -172,7 +172,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#dd44dd"
+        "foreground": "#FF44FF"
       }
     },
     {
@@ -181,7 +181,7 @@
         "keyword"
       ],
       "settings": {
-        "foreground": "#dd44dd"
+        "foreground": "#FF44FF"
       }
     },
     {
@@ -200,7 +200,7 @@
         "keyword.operator.expression"
       ],
       "settings": {
-        "foreground": "#dd44dd"
+        "foreground": "#FF44FF"
       }
     },
     {
@@ -210,7 +210,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#44dddd"
+        "foreground": "#44ffff"
       }
     },
     {
@@ -220,7 +220,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#44dddd"
+        "foreground": "#44ffff"
       }
     },
     {
@@ -260,7 +260,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#88dd44"
+        "foreground": "#44ff44"
       }
     },
     {
@@ -278,7 +278,7 @@
         "entity.name.tag"
       ],
       "settings": {
-        "foreground": "#44dddd"
+        "foreground": "#44ffff"
       }
     },
     {
@@ -288,7 +288,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#4488dd"
+        "foreground": "#4488FF"
       }
     },
     {
@@ -297,7 +297,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#dd4488"
+        "foreground": "#ff4488"
       }
     },
     {
@@ -305,7 +305,7 @@
         "entity.name.section.markdown"
       ],
       "settings": {
-        "foreground": "#4488dd"
+        "foreground": "#4488FF"
       }
     },
     {

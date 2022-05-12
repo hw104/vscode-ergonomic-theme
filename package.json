@@ -2,7 +2,7 @@
   "name": "ergonomic-theme",
   "displayName": "ergonomic-theme",
   "description": "Ergonomic theme for typescript.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.62.0"
   },
@@ -37,6 +37,11 @@
         "label": "ergonomic-dimmed",
         "uiTheme": "vs-dark",
         "path": "./themes/ergonomic-dimmed-color-theme.json"
+      },
+      {
+        "label": "ergonomic-vivid",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ergonomic-vivid-color-theme.json"
       }
     ]
   },

@@ -71,25 +71,31 @@ export function generateTheme(config: Config, name: string): Theme {
         foreground: config.property,
       },
       // NO WORKING
-      comment: "#ff0000",
-      string: "#ff0000",
-      operator: "#ff0000",
+      comment: config.comment,
+      string: config.string,
+      operator: config.operators,
+      keyword: config.keywords,
+      stringLiteral: config.string,
+      struct: {
+        fontStyle: "bold",
+        foreground: config.class,
+      },
+      macro: {
+        fontStyle: "italic bold",
+        foreground: config.function,
+      },
+      newOperator: config.keywords,
+      numberLiteral: config.number,
+      number: config.number,
       customLiteral: "#ff0000",
       decorator: "#ff0000",
-      numberLiteral: "#ff0000",
-      number: "#ff0000",
-      keyword: "#ff0000",
       event: "#ff0000",
       genericType: "#ff0000",
       label: "#ff0000",
-      macro: "#ff0000",
       memberOperatorOverload: "#ff0000",
-      newOperator: "#ff0000",
       operatorOverload: "#ff0000",
       referenceType: "#ff0000",
       regexp: "#ff0000",
-      stringLiteral: "#ff0000",
-      struct: "#ff0000",
       templateFunction: "#ff0000",
       templateType: "#ff0000",
       valueType: "#ff0000",
@@ -312,7 +318,10 @@ export function generateTheme(config: Config, name: string): Theme {
         },
       },
     ],
-    /* "tokenColors": [
+  };
+}
+
+/* "tokenColors": [
       {
         "name": "Comment",
         "scope": [
@@ -932,5 +941,3 @@ export function generateTheme(config: Config, name: string): Theme {
         }
       }
     ] */
-  };
-}
