@@ -11,5 +11,6 @@
   "boolean": "#aaaaff",
   "nulliysh": "#ffaaff",
   "operators": "#FFFFFF",
-  "comment": "#008800"
+  "comment": "#008800",
+  "parameter.label": "#E0E0E0"
 }

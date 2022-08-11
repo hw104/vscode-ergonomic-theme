@@ -1,30 +1,8 @@
-import { Config, ColorLiteral } from "./config";
-
-type Styles = "italic" | "bold" | "underline";
-type FontStyle =
-  | ""
-  | Styles
-  | `${Styles} ${Styles}`
-  | `${Styles} ${Styles} ${Styles}`;
-
-interface Theme {
-  name: string;
-  type: "dark";
-  semanticHighlighting: boolean;
-  tokenColors: {
-    name?: string;
-    scope: string[];
-    settings: {
-      fontStyle?: FontStyle;
-      foreground?: ColorLiteral;
-    };
-  }[];
-  semanticTokenColors: any;
-}
+import { Config, Theme } from "./types";
 
 export function generateTheme(config: Config, name: string): Theme {
   return {
-    name: "ergonomic-theme",
+    name: `ergonomic-${name}`,
     type: "dark",
     semanticHighlighting: true,
     semanticTokenColors: {
@@ -66,10 +44,9 @@ export function generateTheme(config: Config, name: string): Theme {
       // variables
       variable: config.variables,
       parameter: config.parameter,
-      property: {
-        // fontStyle: "bold",
-        foreground: config.property,
-      },
+      property: config.property,
+      "property.annotation": config.keywords,
+      "parameter.label": config["parameter.label"],
       // NO WORKING
       comment: config.comment,
       string: config.string,
