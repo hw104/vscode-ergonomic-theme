@@ -42,11 +42,6 @@
         "label": "ergonomic-vivid",
         "uiTheme": "vs-dark",
         "path": "./themes/ergonomic-vivid-color-theme.json"
-      },
-      {
-        "label": "ergonomic-dark-plus",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ergonomic-dark-plus-color-theme.json"
       }
     ]
   },

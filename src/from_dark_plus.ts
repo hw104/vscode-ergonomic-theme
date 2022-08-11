@@ -1,11 +1,7 @@
 import chalk from "chalk";
 import * as fs from "fs";
-import chroma from "chroma-js";
-import { Cl, Config, Theme, TokenColor } from "./types";
 import * as JSONC from "jsonc-parser";
-import { json } from "stream/consumers";
-
-// "#FF44DD",
+import { Cl, Config, Theme, TokenColor } from "./types";
 
 const VsDarkPlusDist = {
   keywords: "#569CD6",
@@ -21,33 +17,37 @@ const VsDarkPlusDist = {
   regexp: "#D16969",
 } as const;
 
-const toRep: Partial<Record<keyof typeof VsDarkPlusDist, string>> = {
-  keywords: "#B759FF",
-  "keyword.control": "#FF00FF",
+const mapping: Partial<Record<keyof typeof VsDarkPlusDist, keyof Config>> = {
+  keywords: "keywords",
+  "keyword.control": "keywords",
+  class: "class",
+  primitiveType: "primitiveType",
+  function: "function",
+  property: "property",
+  "property.readonly": "property",
+  string: "string",
+  number: "number",
+  comment: "comment",
 } as const;
 
-export function generate(name: string): Theme {
+export function generateTokenColorsFromVsDarkPlus(config: Config): TokenColor[] {
   const theme = JSONC.parse(
     fs.readFileSync("themes/vscode-dark-plus.json").toString()
   ) as Theme;
 
   let newTokenColors = [...(theme.tokenColors ?? [])];
-  for (const k of Object.keys(toRep) as (keyof typeof toRep)[]) {
-    newTokenColors = replaceColor(
-      newTokenColors,
-      VsDarkPlusDist[k],
-      toRep[k] as any
-    );
+  for (const k of Object.keys(
+    VsDarkPlusDist
+  ) as (keyof typeof VsDarkPlusDist)[]) {
+    const key = mapping[k];
+    if (key != null) {
+      const c = config[key];
+      if (c != null) {
+        newTokenColors = replaceColor(newTokenColors, VsDarkPlusDist[k], c);
+      }
+    }
   }
-  const { colors: _, ...newTheme }: Theme = {
-    ...theme,
-    name: `ergonomic-${name}`,
-    type: "dark",
-    semanticHighlighting: true,
-    tokenColors: newTokenColors,
-  };
-
-  return newTheme;
+  return newTokenColors;
 }
 
 function showSummary(theme: Theme) {

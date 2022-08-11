@@ -1,6 +1,6 @@
 import { readdir, writeFile } from "fs/promises";
 import path from "path";
-import { generate as generateDarkPlus } from "./from_dark_plus";
+import { generateTokenColorsFromVsDarkPlus } from "./from_dark_plus";
 import { generateTheme } from "./generator";
 
 async function main() {
@@ -8,31 +8,24 @@ async function main() {
 
   for (const variant of variants) {
     const vpath = path.resolve(__dirname, `../variants/${variant}`);
-    const theme = require(vpath);
+    const config = require(vpath);
     const variantName = path.basename(variant, path.extname(variant));
     const name = `ergonomic-${variantName}`;
     console.log(name);
-    // console.log(variant);
-    // console.log(theme);
+
+    let theme = generateTheme(config, name);
+    const tokenColors = generateTokenColorsFromVsDarkPlus(config);
+    theme = {
+      ...theme,
+      tokenColors: [...tokenColors, ...(theme.tokenColors ?? [])],
+    };
+
     const toPath = path.resolve(
       __dirname,
       `../themes/${name}-color-theme.json`
     );
-    await writeFile(
-      toPath,
-      JSON.stringify(generateTheme(theme, name), undefined, 2)
-    );
+    await writeFile(toPath, JSON.stringify(theme, undefined, 2));
   }
-
-  const toPath = path.resolve(
-    __dirname,
-    `../themes/ergonomic-dark-plus-color-theme.json`
-  );
-  await writeFile(
-    toPath,
-    JSON.stringify(generateDarkPlus('ergonomic-dark-plus'), undefined, 2)
-  );
-  console.log('ergonomic-dark-plus');
 }
 
 main().catch(console.error);

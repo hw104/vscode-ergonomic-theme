@@ -5,12 +5,12 @@
   "function": "#B5BD68",
   "variables": "#F0C674",
   "parameter": "#DE935F",
-  "property": "#CC6666",
+  "property": "#CC8888",
   "string": "#89CA78",
   "number": "#aaffff",
   "boolean": "#aaaaff",
   "nulliysh": "#ddaaff",
   "operators": "#FFFFFF",
   "comment": "#AAFFAA",
-  "parameter.label": "#E0E0E0"
+  "parameter.label": "#D0D0D0"
 }
