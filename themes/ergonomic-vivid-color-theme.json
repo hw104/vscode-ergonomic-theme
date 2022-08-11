@@ -3,37 +3,24 @@
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "class": {
-      "fontStyle": "bold",
-      "foreground": "#4488FF"
-    },
-    "type": {
-      "fontStyle": "bold",
-      "foreground": "#4488FF"
-    },
-    "interface": {
-      "fontStyle": "bold",
-      "foreground": "#4488FF"
-    },
-    "enum": {
-      "fontStyle": "bold",
-      "foreground": "#4488FF"
-    },
+    "class": "#4488FF",
+    "type": "#4488FF",
+    "interface": "#4488FF",
+    "enum": "#4488FF",
     "enumMember": "#ffff44",
-    "typeParameter": {
-      "fontStyle": "bold",
-      "foreground": "#4488FF"
-    },
-    "namespace": {
-      "fontStyle": "bold",
-      "foreground": "#4488FF"
-    },
+    "typeParameter": "#4488FF",
+    "namespace": "#4488FF",
+    "struct": "#4488FF",
     "function": {
-      "fontStyle": "bold",
+      "italic": true,
       "foreground": "#44ff44"
     },
     "method": {
-      "fontStyle": "bold",
+      "italic": true,
+      "foreground": "#44ff44"
+    },
+    "macro": {
+      "italic": true,
       "foreground": "#44ff44"
     },
     "variable": "#ffff44",
@@ -46,14 +33,6 @@
     "operator": "#FFFFFF",
     "keyword": "#FF44FF",
     "stringLiteral": "#aaffaa",
-    "struct": {
-      "fontStyle": "bold",
-      "foreground": "#4488FF"
-    },
-    "macro": {
-      "fontStyle": "italic bold",
-      "foreground": "#44ff44"
-    },
     "newOperator": "#FF44FF",
     "numberLiteral": "#aaffff",
     "number": "#aaffff",
@@ -71,26 +50,18 @@
     "valueType": "#ff0000",
     "cliProperty": "#ff0000",
     "*.defaultLibrary": {
-      "fontStyle": "italic bold"
+      "bold": true
     },
     "variable.defaultLibrary": {
-      "fontStyle": "italic bold",
+      "bold": true,
       "foreground": "#44ffff"
     },
     "*.global": {
-      "fontStyle": "italic bold"
+      "bold": true
     },
     "*.static": {
-      "fontStyle": "italic bold"
-    },
-    "*.modification": {},
-    "*.readonly": {},
-    "*.abstract": {},
-    "*.async": {},
-    "*.declaration": {},
-    "*.deprecated": {},
-    "*.documentation": {},
-    "*.local": {}
+      "bold": true
+    }
   },
   "tokenColors": [
     {
@@ -685,7 +656,7 @@
         "variable.language.this"
       ],
       "settings": {
-        "fontStyle": "bold italic",
+        "fontStyle": "bold",
         "foreground": "#ff4488"
       }
     },
@@ -696,7 +667,7 @@
         "constant.language.undefined"
       ],
       "settings": {
-        "fontStyle": "bold italic",
+        "fontStyle": "bold",
         "foreground": "#ffaaff"
       }
     },
@@ -820,7 +791,7 @@
         "entity.name.function"
       ],
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "italic",
         "foreground": "#44ff44"
       }
     },
