@@ -1,5 +1,5 @@
 {
-  "name": "ergonomic-theme",
+  "name": "ergonomic-vivid",
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -38,9 +38,9 @@
     },
     "variable": "#ffff44",
     "parameter": "#ff8844",
-    "property": {
-      "foreground": "#ff4488"
-    },
+    "property": "#ff4488",
+    "property.annotation": "#FF44FF",
+    "parameter.label": "#E0E0E0",
     "comment": "#008800",
     "string": "#aaffaa",
     "operator": "#FFFFFF",

@@ -46,7 +46,7 @@
       {
         "label": "ergonomic-dark-plus",
         "uiTheme": "vs-dark",
-        "path": "./themes/ergonomic-dark-plus.json"
+        "path": "./themes/ergonomic-dark-plus-color-theme.json"
       }
     ]
   },

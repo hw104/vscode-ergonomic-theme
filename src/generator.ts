@@ -2,7 +2,7 @@ import { Config, Theme } from "./types";
 
 export function generateTheme(config: Config, name: string): Theme {
   return {
-    name: `ergonomic-${name}`,
+    name,// : `ergonomic-${name}`,
     type: "dark",
     semanticHighlighting: true,
     semanticTokenColors: {
