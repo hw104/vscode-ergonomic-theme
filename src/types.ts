@@ -19,14 +19,25 @@ export interface Theme {
       foreground?: ColorLiteral;
     };
   }[];
-  semanticTokenColors: any;
+  semanticTokenColors: {
+    [K: string]:
+      | undefined
+      | Cl
+      | {
+          foreground?: Cl;
+          bold?: boolean;
+          italic?: boolean;
+          underline?: boolean;
+        }
+      | { foreground?: Cl; fontStyle?: FontStyle };
+  };
 }
 
 export interface SeedConfig {
   variableBase: Cl;
   classBase: Cl;
   functionBase: Cl;
-  primitiveValueBase: Cl; // string, number, boolean
+  // primitiveValueBase: Cl; // string, number, boolean
   operators: Cl;
   keywords: Cl;
 }
