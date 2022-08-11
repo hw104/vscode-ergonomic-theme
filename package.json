@@ -42,6 +42,11 @@
         "label": "ergonomic-vivid",
         "uiTheme": "vs-dark",
         "path": "./themes/ergonomic-vivid-color-theme.json"
+      },
+      {
+        "label": "ergonomic-dark-plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ergonomic-dark-plus.json"
       }
     ]
   },
@@ -50,6 +55,7 @@
     "@types/node": "^16.11.12",
     "chalk": "^4.1.2",
     "chroma-js": "^2.4.2",
+    "jsonc-parser": "^3.1.0",
     "ts-node": "^10.4.0",
     "typescript": "^4.7.4",
     "vsce": "^2.5.1"

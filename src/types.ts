@@ -7,29 +7,36 @@ export type FontStyle =
   | `${Styles} ${Styles}`
   | `${Styles} ${Styles} ${Styles}`;
 
+export type TokenColor = {
+  name?: string;
+  scope: string[];
+  settings: {
+    fontStyle?: FontStyle;
+    foreground?: ColorLiteral;
+  };
+};
+
+export type SemanticTokenColor =
+  | Cl
+  | {
+      foreground?: Cl;
+      bold?: boolean;
+      italic?: boolean;
+      underline?: boolean;
+    }
+  | {
+      foreground?: Cl;
+      fontStyle?: FontStyle;
+    };
+
 export interface Theme {
   name: string;
   type: "dark";
-  semanticHighlighting: boolean;
-  tokenColors: {
-    name?: string;
-    scope: string[];
-    settings: {
-      fontStyle?: FontStyle;
-      foreground?: ColorLiteral;
-    };
-  }[];
-  semanticTokenColors: {
-    [K: string]:
-      | undefined
-      | Cl
-      | {
-          foreground?: Cl;
-          bold?: boolean;
-          italic?: boolean;
-          underline?: boolean;
-        }
-      | { foreground?: Cl; fontStyle?: FontStyle };
+  semanticHighlighting?: boolean;
+  colors?: Record<string, Cl>;
+  tokenColors?: TokenColor[];
+  semanticTokenColors?: {
+    [K: string]: SemanticTokenColor | undefined;
   };
 }
 
