@@ -1,0 +1,23 @@
+{
+  "name": "pastel-light",
+  "type": "light",
+  "uiTheme": "vs",
+  "from": "vscode-light-modern.json",
+  "config": {
+    "keywords": "#ff00ff",
+    "class": "#0088FF",
+    "primitiveType": "#00ddff",
+    "function": "#07d100",
+    "variables": "#ffa000",
+    "parameter": "#FF6600",
+    "property": "#ff6666",
+    "string": "#856840",
+    "number": "#0097b9",
+    "boolean": "#bb00ff",
+    "nulliysh": "#dd88dd",
+    "operators": "#666666",
+    "comment": "#00FF00",
+    "parameter.label": "#E0E0E0",
+    "lineTerminator": "#aaaaaa"
+  }
+}

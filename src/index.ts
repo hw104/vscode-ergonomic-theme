@@ -1,9 +1,9 @@
 import { readdir, writeFile } from "fs/promises";
 import path from "path";
+import packageJson from "../package.json";
 import { generateTokenColorsFromVsDarkPlus } from "./from_dark_plus";
 import { generateTheme } from "./generator";
 import { Variant } from "./types";
-import packageJson from "../package.json";
 
 async function main() {
   const variants = await readdir(path.resolve(__dirname, "../variants"));
@@ -13,10 +13,17 @@ async function main() {
   for (const variantPath of variants) {
     const variant = require(`../variants/${variantPath}`) as Variant;
     variant.name = `ergonomic-${variant.name}`;
-    const { name, type, uiTheme } = variant;
+    const { name, uiTheme, from } = variant;
+
     const theme = generateTheme(variant);
-    const tokenColors = generateTokenColorsFromVsDarkPlus(variant.config);
-    theme.tokenColors = [...tokenColors, ...(theme.tokenColors ?? [])];
+    theme.tokenColors = [
+      ...generateTokenColorsFromVsDarkPlus(variant.config),
+      ...(theme.tokenColors ?? []),
+    ];
+    if (from != null) {
+      const baseTheme = require(`../themes/${from}`);
+      theme.colors = { ...baseTheme.colors, ...theme.colors };
+    }
 
     const basePath = `themes/${name}-color-theme.json`;
     const toPath = path.resolve(__dirname, `../${basePath}`);

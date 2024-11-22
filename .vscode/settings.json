@@ -1,3 +1,7 @@
 {
-    "C_Cpp.dimInactiveRegions": true
+  "editor.colorDecorators": true,
+  "editor.suggest.showColors": true,
+  "files.associations": {
+    "*.json": "jsonc"
+  }
 }

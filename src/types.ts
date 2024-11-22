@@ -64,6 +64,8 @@ export interface Config {
   keywords: Cl;
   operators: Cl;
   primitiveType: Cl;
+  // default is operators
+  lineTerminator?: Cl;
   "parameter.label": Cl | undefined;
 }
 
@@ -72,4 +74,5 @@ export type Variant = {
   type: "light" | "dark";
   name: string;
   config: Config;
+  from?: string;
 };

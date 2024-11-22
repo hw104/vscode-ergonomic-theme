@@ -192,6 +192,17 @@ export function generateTheme(variant: Variant): Theme {
           foreground: "#FFFFFF",
         },
       },
+      ...(config.lineTerminator != null
+        ? [
+            {
+              name: "terminators, i.e: ;",
+              scope: ["punctuation.terminator"],
+              settings: {
+                foreground: config.lineTerminator ?? config.operators,
+              },
+            },
+          ]
+        : []),
       {
         name: "`, \", '",
         scope: ["punctuation.definition.string"],
