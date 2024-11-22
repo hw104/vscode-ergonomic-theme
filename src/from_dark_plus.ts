@@ -1,4 +1,3 @@
-import chalk from "chalk";
 import * as fs from "fs";
 import * as JSONC from "jsonc-parser";
 import { Cl, Config, Theme, TokenColor } from "./types";
@@ -30,7 +29,9 @@ const mapping: Partial<Record<keyof typeof VsDarkPlusDist, keyof Config>> = {
   comment: "comment",
 } as const;
 
-export function generateTokenColorsFromVsDarkPlus(config: Config): TokenColor[] {
+export function generateTokenColorsFromVsDarkPlus(
+  config: Config
+): TokenColor[] {
   const theme = JSONC.parse(
     fs.readFileSync("themes/vscode-dark-plus.json").toString()
   ) as Theme;
@@ -48,28 +49,6 @@ export function generateTokenColorsFromVsDarkPlus(config: Config): TokenColor[] 
     }
   }
   return newTokenColors;
-}
-
-function showSummary(theme: Theme) {
-  const colors = new Set(extColors2(theme));
-  console.log("colors:" + colors.size);
-  colors.forEach((c) => {
-    const tokenColors = extTokenColors(theme, c);
-    const a = tokenColors.map((c) => `[${c.scope}]`).join(" ");
-    console.log(chalk.hex(c).inverse("__ " + c + " __") + ": " + a);
-  });
-}
-
-function extColors2(theme: Theme): Cl[] {
-  return (theme.tokenColors ?? [])
-    .map<Cl | undefined>((c) => c.settings.foreground)
-    .filter((c): c is Cl => c != null);
-}
-
-function extTokenColors(theme: Theme, color: Cl): TokenColor[] {
-  return (theme.tokenColors ?? []).filter(
-    (c) => c.settings.foreground === color
-  );
 }
 
 function replaceColor(

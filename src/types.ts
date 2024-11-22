@@ -31,7 +31,7 @@ export type SemanticTokenColor =
 
 export interface Theme {
   name: string;
-  type: "dark";
+  type: "dark" | "light";
   semanticHighlighting?: boolean;
   colors?: Record<string, Cl>;
   tokenColors?: TokenColor[];
@@ -66,3 +66,10 @@ export interface Config {
   primitiveType: Cl;
   "parameter.label": Cl | undefined;
 }
+
+export type Variant = {
+  uiTheme: "vs-dark" | "vs" | "hc-black" | "hc-light";
+  type: "light" | "dark";
+  name: string;
+  config: Config;
+};

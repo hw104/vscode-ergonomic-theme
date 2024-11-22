@@ -1,9 +1,10 @@
-import { Config, SemanticTokenColor, Theme } from "./types";
+import { Config, SemanticTokenColor, Theme, Variant } from "./types";
 
-export function generateTheme(config: Config, name: string): Theme {
+export function generateTheme(variant: Variant): Theme {
+  const { name, config, type, uiTheme } = variant;
   return {
     name,
-    type: "dark",
+    type: type,
     semanticHighlighting: true,
     semanticTokenColors: {
       // types

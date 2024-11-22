@@ -1,16 +1,21 @@
 {
-  "keywords": "#FF44FF",
-  "class": "#4488FF",
-  "primitiveType": "#44ffff",
-  "function": "#44ff44",
-  "variables": "#ffff44",
-  "parameter": "#ff8844",
-  "property": "#ff4488",
-  "string": "#aaffaa",
-  "number": "#aaffff",
-  "boolean": "#aaaaff",
-  "nulliysh": "#ffaaff",
-  "operators": "#FFFFFF",
-  "comment": "#008800",
-  "parameter.label": "#E0E0E0"
+  "name": "vivid",
+  "type": "dark",
+  "uiTheme": "vs-dark",
+  "config": {
+    "keywords": "#FF44FF",
+    "class": "#4488FF",
+    "primitiveType": "#44ffff",
+    "function": "#44ff44",
+    "variables": "#ffff44",
+    "parameter": "#ff8844",
+    "property": "#ff4488",
+    "string": "#aaffaa",
+    "number": "#aaffff",
+    "boolean": "#aaaaff",
+    "nulliysh": "#ffaaff",
+    "operators": "#FFFFFF",
+    "comment": "#008800",
+    "parameter.label": "#E0E0E0"
+  }
 }
