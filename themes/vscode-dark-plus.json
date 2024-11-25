@@ -14,7 +14,7 @@
 		"list.dropBackground": "#383b3d",
 		"menu.background": "#303031",
 		"menu.foreground": "#cccccc",
-		"ports.iconRunningProcessForeground": "#369432",
+		"ports.iconRunningProcessForeground": "#00ff00",
 		"sideBarSectionHeader.background": "#00000000",
 		"sideBarSectionHeader.border": "#cccccc33",
 		"sideBarTitle.foreground": "#bbbbbb",

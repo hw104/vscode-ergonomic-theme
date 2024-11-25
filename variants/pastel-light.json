@@ -9,14 +9,14 @@
     "primitiveType": "#00ddff",
     "function": "#07d100",
     "variables": "#ffa000",
-    "parameter": "#FF6600",
-    "property": "#ff6666",
+    "parameter": "#ff6600",
+    "property": "#ff8888",
     "string": "#856840",
     "number": "#0097b9",
     "boolean": "#bb00ff",
     "nulliysh": "#dd88dd",
     "operators": "#666666",
-    "comment": "#00FF00",
+    "comment": "#b0b0b0",
     "parameter.label": "#E0E0E0",
     "lineTerminator": "#aaaaaa"
   }
